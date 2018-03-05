@@ -1,0 +1,16 @@
+546
+~E 1 "./../src/alu.vhd" 6 alu
+~A 1 "./../src/alu.vhd" 14 sample
+~E 1 "./../src/IRFI.vhd" 6 ir
+~A 1 "./../src/IRFI.vhd" 23 sample
+~E 1 "./../src/IREX.vhd" 6 irex
+~A 1 "./../src/IREX.vhd" 20 sample
+~E 1 "./../src/IREX2.vhd" 6 irex2
+~A 1 "./../src/IREX2.vhd" 15 sample
+~E 1 "./../src/IRWB.vhd" 6 irwb
+~A 1 "./../src/IRWB.vhd" 16 sample
+~E 1 "./../src/mem.vhd" 6 mem
+~E 1 "./../src/Rom.vhd" 6 rom
+~A 1 "./../src/Rom.vhd" 13 sample
+~E 1 "./../src/top.vhd" 6 top
+~A 1 "./../src/top.vhd" 9 sample

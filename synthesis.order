@@ -1,0 +1,6 @@
+i<>.\src\alu.vhd
+i<>.\src\top.vhd
+i<>.\src\IR.vhd
+i<>.\src\Rom.vhd
+i<>.\src\IREX.vhd
+i<>.\src\IREX2.vhd

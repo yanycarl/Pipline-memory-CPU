@@ -1,0 +1,42 @@
+Active-HDL 10.3.3559.6081  2017-12-29 17:13:18
+
+Elaboration top modules:
+Architecture                  sample(top)
+
+
+------------------------------------------------------------------------------------------------
+Entity   | Architecture | Library      | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+top      | sample       | micprocesser |      | 10.3.3559.6081  (Windows) | -O3
+alu      | sample       | micprocesser |      | 10.3.3559.6081  (Windows) | -O3
+ir       | sample       | micprocesser |      | 10.3.3559.6081  (Windows) | -O3
+rom      | sample       | micprocesser |      | 10.3.3559.6081  (Windows) | -O3
+irex     | sample       | micprocesser |      | 10.3.3559.6081  (Windows) | -O3
+irwb     | sample       | micprocesser |      | 10.3.3559.6081  (Windows) | -O3
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Package            | Library      | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                | std          |      |                           | <unavailable>
+TEXTIO                  | std          |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_1164          | ieee         |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_arith         | ieee         |      | 10.3.3559.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee         |      | 10.3.3559.6081  (Windows) | <unavailable>
+NUMERIC_STD             | ieee         |      | 10.3.3559.6081  (Windows) |  -2008
+STD_LOGIC_SIGNED        | ieee         |      | 10.3.3559.6081  (Windows) | <unavailable>
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Library                 | Comment
+------------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+micprocesser            | None
+std                     | Standard VHDL library
+------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+top top sample
+
+
+The performance of simulation is reduced. Version Student Edition

@@ -1,0 +1,6 @@
+.\src\alu.vhd
+.\src\top.vhd
+.\src\IRFI.vhd
+.\src\Rom.vhd
+.\src\IREX.vhd
+.\src\IRWB.vhd

@@ -1,0 +1,79 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=micprocesser
+
+[Library]
+micprocesser=.\micprocesser\micprocesser.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+PCBINTERFACE_STATUS=ERRORS
+IMPL_TOOL=
+SYNTH_TOOL=
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+FAMILY=
+FUNC_LIB=micprocesser
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+micprocesser=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=top|sample|0      
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/alu.vhd=-1
+/top.vhd=-1
+/IRFI.vhd=-1
+/Rom.vhd=-1
+/IREX.vhd=-1
+/untitled.asdb=-1
+/IRWB.vhd=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\alu.vhd=VHDL Source Code
+.\src\top.vhd=VHDL Source Code
+.\src\IRFI.vhd=VHDL Source Code
+.\src\Rom.vhd=VHDL Source Code
+.\src\IREX.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\IRWB.vhd=VHDL Source Code
+.\src\untitled.awc=Accelerated Waveform Configuration
+

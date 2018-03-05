@@ -1,0 +1,42 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7240 kB (elbread=1280 elab2=5810 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location d:\Projects\VHDL\microprcesser\micprocesser\src\wave.asdb
+#  17:13, 2017Äê12ÔÂ29ÈÕ
+#  Simulation has been initialized
+# 13 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/Projects/VHDL/microprcesser/micprocesser/src/wave.asdb'.
+run 1600 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top,  Process: line__54.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top,  Process: line__54.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g3,  Process: line__36.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 25 ns,  Iteration: 0,  Instance: /top/g4,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1575 ns,  Iteration: 0,  Instance: /top/g2,  Process: line__30.
+# KERNEL: stopped at time: 1600 ns
